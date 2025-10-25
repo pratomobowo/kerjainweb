@@ -11,6 +11,11 @@ export default defineConfig({
     chunkSizeWarningLimit: 5000,
     outDir: "dist",
     assetsDir: "assets",
+    rollupOptions: {
+      output: {
+        manualChunks: undefined,
+      },
+    },
   },
   resolve: {
     alias: {

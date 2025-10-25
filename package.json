@@ -34,6 +34,7 @@
     "dev": "vite",
     "preview": "vite preview",
     "lint": "eslint .",
-    "vercel-build": "npm run build"
+    "vercel-build": "npm run build",
+    "build:static": "./build-static.sh"
   }
 }
